@@ -16,5 +16,5 @@ inputs:
     default: "300000"
     description: "Time in ms to wait for the device to come back online after flashing"
 runs:
-  using: "node20"
+  using: "node24"
   main: "dist/index.js"
